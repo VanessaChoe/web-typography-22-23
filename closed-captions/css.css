@@ -15,8 +15,8 @@ Feel free to adjust the defaults to your needs.
 	transition: .05s;
 	position: absolute;
 	bottom: 1.5em;
-	left: 1em;
-	right: 1em;
+	left: 14em;
+	right: 14em;
 }
 #closed-captions .on {
 	opacity: 1;
@@ -107,9 +107,10 @@ You probably want to change the styling.
 }
 
 .p1.on {
-	background: hotpink;
+	background: white;
 	color: red;
-	font-size: 200px;
+	border: 0.1em solid red;
+	font-size: 2em;
 }
 
 /* **********************************************
