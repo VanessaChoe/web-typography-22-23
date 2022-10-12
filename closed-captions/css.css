@@ -47,8 +47,6 @@ Feel free to adjust the defaults to your needs.
 
 /* Voice 2 */
 .voice2 {
-	font-weight: bold;
-
 	background: rgba(0, 0, 0, 0.5);
 	padding: 0.5rem;
 	border-radius: 0.4em;
@@ -58,11 +56,22 @@ Feel free to adjust the defaults to your needs.
 
 /* Voice 3 */
 .voice3 {
-	font-style: bold;
 	/* background-color: red; */
 	/* padding: 0.5em; */
 	font-size: 1.25em;
 	/* YES SIR */
+
+	background: rgba(0, 0, 0, 0.5);
+	padding: 0.5rem;
+	border-radius: 0.4em;
+}
+
+
+
+/* Voice 4 */
+.voice4 {
+	font-style: bold;
+	font-size: 1.25em;
 
 	background: rgba(0, 0, 0, 0.5);
 	padding: 0.5rem;
@@ -81,6 +90,9 @@ You probably want to change the styling.
 .p0 span {
 	opacity: 0;
 	font-family: brenner;
+	font-style: Normal;
+	font-family: "Brenner Sans";
+	font-weight: 400;
 }
 .p0.on span:first-of-type {
 	opacity: 1;
@@ -88,97 +100,97 @@ You probably want to change the styling.
 	/* transition: 0s; */
 	/* font-weight: 200; */
 	/* font-style: normal; */
-	font-style: Normal;
+	/* font-style: Normal;
 	font-family: "Brenner Sans";
-	font-weight: 400;
+	font-weight: 400; */
 }
 .p0.on span:nth-of-type(2) {
 	opacity: 1;
 	/* transition: 0s .4s; */
 	margin-right: -.25em;
-	font-weight: 400;
+	/* font-weight: 400; */
 	/* k */
-	font-style: Normal;
+	/* font-style: Normal;
 	font-family: "Brenner Sans";
-	font-weight: 400;
+	font-weight: 400; */
 }
 .p0.on span:nth-of-type(3) {
 	opacity: 1;
 	/* transition: 0s .5s; */
 	margin-right: -.25em;
-	font-weight: 600;
+	/* font-weight: 600; */
 	/* D */
-	font-style: Normal;
+	/* font-style: Normal;
 	font-family: "Brenner Sans";
-	font-weight: 400;
+	font-weight: 400; */
 }
 .p0.on span:nth-of-type(4) {
 	opacity: 1;
 	/* transition: 0s .7s; */
 	margin-right: -.25em;
 	/* font-weight: 800; */
-	font-style: Normal;
+	/* font-style: Normal;
 	font-family: "Brenner Sans";
-	font-weight: 400;
+	font-weight: 400; */
 }
 .p0.on span:nth-of-type(5) {
 	opacity: 1;
 	/* transition: 0s 1.1s; */
 	margin-right: -.25em;
 	/* font-family: "brenner sans"; */
-	font-style: Normal;
+	/* font-style: Normal;
 	font-family: "Brenner Sans";
-	font-weight: 400;
+	font-weight: 400; */
 }
 .p0.on span:nth-of-type(6) {
 	opacity: 1;
 	/* transition: 0s 1.4s; */
 	margin-right: -.25em;
 	/* font-family: "brenner display"; */
-	font-style: Normal;
+	/* font-style: Normal;
 	font-family: "Brenner Sans";
-	font-weight: 400;
+	font-weight: 400; */
 }
 .p0.on span:nth-of-type(7) {
 	opacity: 1;
 	/* transition: 0s 1.7s; */
 	margin-right: -.25em;
 	/* font-family: "brenner script"; */
-	font-style: Normal;
+	/* font-style: Normal;
 	font-family: "Brenner Sans";
-	font-weight: 400;
+	font-weight: 400; */
 }
 .p0.on span:nth-of-type(8) {
 	opacity: 1;
 	/* transition: 0s 2s; */
 	/* font-family: "brenner script"; */
-	font-style: Normal;
+	/* font-style: Normal;
 	font-family: "Brenner Sans";
-	font-weight: 400;
+	font-weight: 400; */
 }
 .p0.on span:nth-of-type(9) {
 	opacity: 1;
 	/* transition: 0s 3s; */
 	/* font-family: "brenner Sans condensed"; */
-	font-style: Normal;
+	/* font-style: Normal;
 	font-family: "Brenner Sans";
-	font-weight: 400;
+	font-weight: 400; */
 }
 .p0.on span:nth-of-type(10) {
 	opacity: 1;
 	/* transition: 0s 3.2s; */
 	/* font-family: "brenner mono"; */
-	font-style: Normal;
+	/* font-style: Normal;
 	font-family: "Brenner Sans";
-	font-weight: 400;
+	font-weight: 400; */
 }
 .p0.on span:nth-of-type(11) {
 	opacity: 1;
 	/* transition: 0s 3.7s; */
 	/* font-family: "brenner slab"; */
-	font-style: Normal;
+	/* font-style: Normal;
 	font-family: "Brenner Sans";
-	font-weight: 400;
+	font-weight: 400; */
 }
 
 
@@ -199,6 +211,303 @@ Sounds.
 .sound1 #video-mask {
 	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
 }
+
+.sound2 #video-mask {
+	box-shadow: 0 4px 8px 0 red, 0 6px 20px 0 red;
+}
+
+
+.sound8 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound9 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound10 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound11 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound12 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound13 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound14 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound15 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound16 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound17 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound18 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound19 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound20 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound21 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound22 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound23 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound24 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound25 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound26 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound27 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound28 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound29 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound30 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound31 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound32 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound33 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound34 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound35 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound36 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound37 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound38 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound39 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+
+
+.sound40 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound41 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound42 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound43 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound44 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound45 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound46 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound47 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound48 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound49 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound50 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound51 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound52 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound53 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound54 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound55 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound56 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound57 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound58 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound59 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound60 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound61 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound62 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound63 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound64 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound65 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound66 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound67 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound68 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound69 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound70 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound71 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+} 
+.sound72 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound73 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound74 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound75 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound76 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound77 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound78 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound79 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound80 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+/* .sound81 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound82 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound83 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound84 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound85 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound87 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound88 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound89 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound90 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound91 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound92 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound93 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound94 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound95 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound96 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound97 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound98 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound99 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound100 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound101 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound102 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.sound103 #video-mask {
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.sound104 #video-mask {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}  */ 
+
 
 
 /* **********************************************
