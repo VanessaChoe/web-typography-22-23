@@ -20,6 +20,7 @@ Feel free to adjust the defaults to your needs.
 	font-style: Normal;
 	font-family: "Brenner Sans";
 	font-weight: 400;
+	font-size: 1.3em;
 	/* Alle tekst */
 }
 #closed-captions .on {
@@ -30,29 +31,42 @@ Feel free to adjust the defaults to your needs.
 	opacity: 0;
 }
 
-/* .voice1 {
-	font-style: italic;
-} */
+
+
+/* Voice 1 */
+.voice1 {
+	background: rgba(0, 0, 0, 0.5);
+	padding: 0.5rem;
+	border-radius: 0.4em;
+}
 #closed-captions .voice1:first-of-type {
 	font-style: normal;
 }
-/* #closed-captions .voice1 span:nth-child(2) {
-	font-style: normal;
-}
-#closed-captions .voice1 span:nth-child(3) {
-	font-style: normal;
-} */
 
+
+
+/* Voice 2 */
 .voice2 {
 	font-weight: bold;
+
+	background: rgba(0, 0, 0, 0.5);
+	padding: 0.5rem;
+	border-radius: 0.4em;
 }
 
-.voice3 span:first-of-type {
-	font-weight: medium;
-	background-color: red;
-	padding: 0.5em;
+
+
+/* Voice 3 */
+.voice3 {
+	font-style: bold;
+	/* background-color: red; */
+	/* padding: 0.5em; */
 	font-size: 1.25em;
 	/* YES SIR */
+
+	background: rgba(0, 0, 0, 0.5);
+	padding: 0.5rem;
+	border-radius: 0.4em;
 }
 
 /* **********************************************
@@ -63,6 +77,7 @@ The first paragraph, with extended timing for
 	spoken.
 You probably want to change the styling.
 ********************************************** */
+
 .p0 span {
 	opacity: 0;
 	font-family: brenner;
@@ -166,12 +181,7 @@ You probably want to change the styling.
 	font-weight: 400;
 }
 
-.p1.on {
-	background: white;
-	/* color: red;
-	border: 0.1em solid red; */
-	font-size: 2em;
-}
+
 
 /* **********************************************
 Sounds.
