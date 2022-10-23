@@ -4,7 +4,7 @@
 Blade Runner 2029 is een science fiction film dat over een LAPD-functionaris gaat die een samenzwering ontdekt van de android-werknemers die als personeel van de mensheid dienen. Zijn doel is om een voormalige agent te vinden die hem moet helpen in deze oorlog.
 
 
-### Proces/onderzoek
+### Proces/onderzoek Week 1
 
 
 
@@ -54,3 +54,14 @@ Dit probleem heb ik proberen te verhelpen door gebruik te maken van emoji's. In 
 Bron: <a href="">https://viaplay.com/nl-nl/movies/blade-runner-2049-2017?&msclkid=f4f3962c19d71fa07f64f579805e292a&utm_source=bing&utm_medium=cpc&utm_campaign=nl_web_gs_ua_all_x_x_search-dsa-movies~VPL000_VPL000_ref1_204045826&utm_term=nl%2Fmovies&utm_content=nl_web_gs_key_all_x_xx_dsa-movies&gclid=COeYyL-O9_oCFRKAhQodk3IN6w&gclsrc=ds"</a>!
 
 Bron: <a href="">https://www.premiumbeat.com/blog/symmetry-color-cinematography-blade-runner/</a>!
+
+
+#### Voortgangsgesprek week 1
+
+<ul>
+<li>Het mag extremer, gedurfder.</li>
+<li>Je hoeft sommige worden niet per se vorm te geven.</li>
+<li>Piepgeluid is naar om te horen, het beeld mag daarom ook naar om te kijken zijn.</li>
+<li>Het beeld moet het geluid echt duidelijk vormgeven.</li>
+<li>Herinnering: readme maken</li>
+</ul>
