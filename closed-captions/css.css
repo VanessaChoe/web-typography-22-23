@@ -213,104 +213,506 @@ Sounds.
 }
 
 .sound2 #video-mask {
-	box-shadow: 0 4px 8px 0 red, 0 6px 20px 0 red;
+	box-shadow: 0 4px 8px 0 #BF620A, 0 6px 20px 0 #BF620A;
 }
 
 
-.sound8 #video-mask {
+/* .sound8{ */
+	/* background-color: black; */
+
+	.sound9 #video-mask {
+		box-shadow: 0 4px 8px 0 transparent, 0 6px 20px 0 transparent;
+	}
+
+	.sound9 {
+		animation-name: backgroundColorPalette;
+		animation-duration: 45s;
+		/* animation-iteration-count: infinite; */
+
+	}
+
+	@keyframes backgroundColorPalette {
+		0% {
+			background: white;
+		}
+		2%{
+			background: black;
+		}
+		3% {
+			background: white;
+		}
+		4% {
+			background: black;
+		}
+		5% {
+			background: white;
+		}
+		6% {
+			background: black;
+		}
+		7% {
+			background: white;
+		}
+		8% {
+			background: black;
+		}
+		9% {
+			background: white;
+		}
+		10% {
+			background: black;
+		}
+		11% {
+			background: white;
+		}
+		12% {
+			background: black;
+		}
+		13% {
+			background: white;
+		}
+		14% {
+			background: black;
+		}
+		15% {
+			background: white;
+		}
+		16% {
+			background: black;
+		}
+		17% {
+			background: white;
+		}
+		18% {
+			background: black;
+		}
+		19% {
+			background: white;
+		}
+		20% {
+			background: black;
+		}
+		21% {
+			background: white;
+		}
+		22% {
+			background: black;
+		}
+		23% {
+			background: white;
+		}
+		24% {
+			background: black;
+		}
+		25% {
+			background: white;
+		}
+		26% {
+			background: black;
+		}
+		27% {
+			background: white;
+		}
+		28% {
+			background: black;
+		}
+		28% {
+			background: white;
+		}
+		29% {
+			background: black;
+		}
+		30% {
+			background: white;
+		}
+		31% {
+			background: black;
+		}
+		32% {
+			background: white;
+		}
+		33% {
+			background: black;
+		}
+		34% {
+			background: white;
+		}
+		35% {
+			background-image: linear-gradient(to right, #441D4B , #C599BC);
+		}
+		36% {
+			background: white;
+		}
+		37% {
+			background: black;
+		}
+		38% {
+			background: white;
+		}
+		39% {
+			background: black;
+		}
+		40% {
+			background: white;
+		}
+		41% {
+			background: black;
+		}
+		42% {
+			background: white;
+		}
+		43% {
+			background: black;
+		}
+		44% {
+			background: white;
+		}
+		45% {
+			background: black;
+		}
+		46% {
+			background: rgb(6, 5, 5);
+		}
+		47% {
+			background: black;
+		}
+		48% {
+			background: white;
+		}
+		49% {
+			background: black;
+		}
+		50% {
+			background: white;
+		}
+		51% {
+			background: black;
+		}
+		52% {
+			background: white;
+		}
+		53% {
+			background: black;
+		}
+		54% {
+			background: white;
+		}
+		55% {
+			background: black;
+		}
+		56% {
+			background: white;
+		}
+		57% {
+			background: black;
+		}
+		58% {
+			background: white;
+		}
+		59% {
+			background: black;
+		}
+		60% {
+			background: white;
+		}
+		61% {
+			background: black;
+		}
+		62% {
+			background: white;
+		}
+		63% {
+			background: black;
+		}
+		64% {
+			background: white;
+		}
+		65% {
+			background: black;
+		}
+		66% {
+			background: white;
+		}
+		67% {
+			background: black;
+		}
+		68% {
+			background: white;
+		}
+		69% {
+			background: black;
+		}
+		70% {
+			background: white;
+		}
+		71% {
+			background: black;
+		}
+		72% {
+			background: white;
+		}
+		73% {
+			background: black;
+		}
+		74% {
+			background: white;
+		}
+		75% {
+			background: black;
+		}
+		76% {
+			background: white;
+		}
+		77% {
+			background: black;
+		}
+		78% {
+			background: white;
+		}
+		79% {
+			background: black;
+		}
+		80% {
+			background: white;
+		}
+		81% {
+			background: black;
+		}
+		82% {
+			background: white;
+		}
+		83% {
+			background: black;
+		}
+		84% {
+			background: white;
+		}
+		85% {
+			background: black;
+		}
+		86% {
+			background: white;
+		}
+		87% {
+			background: black;
+		}
+		88% {
+			background: white;
+		}
+		89% {
+			background: black;
+		}
+		90% {
+			background: white;
+		}
+		91% {
+			background: black;
+		}
+		92% {
+			background: white;
+		}
+		93% {
+			background: black;
+		} 
+		94% {
+			background: white;
+		}
+		95% {
+			background: black;
+		} 
+		100% {
+			background: white;
+		}
+	}
+		/* 11% {
+			background: white;
+		}
+		12% {
+			background: black;
+		}
+		13% {
+			background: white;
+		}
+		14% {
+			background: black;
+		}
+		15% {
+			background: white;
+		}
+		16% {
+			background: black;
+		}
+		17% {
+			background: white;
+		}
+		18% {
+			background: black;
+		}
+		19% {
+			background: white;
+		}
+		20% {
+			background: black;
+		}
+		21% {
+			background: white;
+		}
+		22% {
+			background: black;
+		}
+		23% {
+			background: white;
+		}
+		24% {
+			background: black;
+		}
+		25% {
+			background: white;
+		}
+		26% {
+			background: black;
+		}
+		27% {
+			background: white;
+		}
+		28% {
+			background: black;
+		}
+		29% {
+			background: white;
+		}
+		30% {
+			background: black;
+		}
+		31% {
+			background: white;
+		}
+		32% {
+			background: black;
+		}
+		33% {
+			background: white;
+		}
+		34% {
+			background: black;
+		}
+		35% {
+			background: white;
+		}
+		36% {
+			background: black;
+		}
+		37% {
+			background: white;
+		}
+		38% {
+			background: black;
+		} */
+		/* 39% {
+			background: white;
+		}
+		40% {
+			background: black;
+		}
+		41% {
+			background: white;
+		}
+		42% {
+			background: black;
+		} */
+	
+/* } */
+/* .sound9{
+	background-color: white;
+}
+.sound10{
+	background-color: black
+}
+.sound11{
+	background-color: white;
+}
+.sound12{
+	background-color: black
+}
+.sound13{
+	background-color: white;
+}
+.sound14{
+	background-color: black
+}
+.sound15{
+	background-color: white;
+}
+.sound16{
+	background-color: black
+}
+.sound17{
+	background-color: white;
+}
+.sound18{
+	background-color: black
+}
+.sound19{
+	background-color: white;
+}
+.sound20{
+	background-color: black
+}
+.sound21{
+	background-color: white;
+}
+.sound22{
+	background-color: black
+}
+.sound23{
+	background-color: white;
+}
+.sound24{
+	background-color: black
+}
+.sound25{
+	background-color: white;
+}
+.sound26{
+	background-color: black
+}
+.sound27{
+	background-color: white;
+}
+.sound28{
+	background-color: black
+}
+.sound29 {
+	background-color: white;
+}
+.sound30{
+	background-color: black
+}
+.sound31{
+	background-color: white;
+}
+.sound32{
+	background-color: black
+}
+.sound33{
+	background-color: white;
+}
+.sound34{
 	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
 }
-.sound9 #video-mask {
+.sound35{
 	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
 }
-.sound10 #video-mask {
+.sound36{
 	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
 }
-.sound11 #video-mask {
+.sound37{
 	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
 }
-.sound12 #video-mask {
+.sound38{
 	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
 }
-.sound13 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound14 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound15 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound16 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound17 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound18 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound19 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound20 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound21 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound22 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound23 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound24 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound25 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound26 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound27 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound28 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound29 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound30 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound31 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound32 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound33 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound34 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound35 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound36 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound37 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound38 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound39 #video-mask {
+.sound39{
 	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
 }
 
@@ -437,7 +839,7 @@ Sounds.
 }
 .sound80 #video-mask {
 	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
+} */
 /* .sound81 #video-mask {
 	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
 }
