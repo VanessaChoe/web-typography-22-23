@@ -4,10 +4,13 @@
 Blade Runner 2029 is een science fiction film dat over een LAPD-functionaris gaat die een samenzwering ontdekt van de android-werknemers die als personeel van de mensheid dienen. Zijn doel is om een voormalige agent te vinden die hem moet helpen in deze oorlog.
 
 
+
+
+
+
+
+
 ### Proces/onderzoek Week 1
-
-
-
 
 #### Blader Runner 2049
 
@@ -48,13 +51,12 @@ Dit probleem heb ik proberen te verhelpen door gebruik te maken van emoji's. In 
     <li>Paars & roze: worden gebruikt voor romatische interesses. worden vaak geassocieerd met extravagantie, dubbelzinnigheid, onschuld, romantiek en algeheel onschadelijkheid.</li>
     <li><img width="100" alt="Paars & roze" src=""></li>
     <li>Wit: vertegenwoordigt waarheid en informatie, verschijnt in elke scêne wanneer K in de buurt komt van het uitzoeken naar zijn identiteit.</li>
-    <li><img width="100" alt="Wit" src=""> </li>
+    <li><img width="100" alt="Wit" src=""></li>
 </ul>
 
 Bron: <a href="">https://viaplay.com/nl-nl/movies/blade-runner-2049-2017?&msclkid=f4f3962c19d71fa07f64f579805e292a&utm_source=bing&utm_medium=cpc&utm_campaign=nl_web_gs_ua_all_x_x_search-dsa-movies~VPL000_VPL000_ref1_204045826&utm_term=nl%2Fmovies&utm_content=nl_web_gs_key_all_x_xx_dsa-movies&gclid=COeYyL-O9_oCFRKAhQodk3IN6w&gclsrc=ds"</a>!
 
 Bron: <a href="">https://www.premiumbeat.com/blog/symmetry-color-cinematography-blade-runner/</a>!
-
 
 #### Voortgangsgesprek week 1
 
@@ -64,4 +66,33 @@ Bron: <a href="">https://www.premiumbeat.com/blog/symmetry-color-cinematography-
 <li>Piepgeluid is naar om te horen, het beeld mag daarom ook naar om te kijken zijn.</li>
 <li>Het beeld moet het geluid echt duidelijk vormgeven.</li>
 <li>Herinnering: readme maken</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+### Proces/onderzoek Week 2
+
+#### Kleur
+
+Gedurende het piepgeluid heb ik de achtergrondkleur aangepast naar zwart en wit. Bij de zin 'What's it like to hold the hand of someone you love', heb ik de achtegrondkleur aangepast naar een gradient van paars tot roze. Paars tot roze stond namelijk voor romantische interesses. Daarnaast heb ik de box-shadow bij sound 1 aan het begin van de video, aangepast van wit naar oranje. De scene wat tijdens die box-sahdow afspeelde, bleef nog een beetje mysterieus, oranje paste daarom wel goed bij de scene.
+
+<img width="100" alt="Achtergrondkleur paars-roze gradient" src="">
+<img width="100" alt="Box-shadow oranje" src="">
+
+
+#### Voortgangsgesprek week 2
+
+<ul>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
 </ul>
