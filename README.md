@@ -22,7 +22,7 @@ Het font wat ik ga gebruiken voor de ondertiteling is 'Brenner Sans'. Brenner Sa
 
 <img width="100" alt="Brenner Sans afbeelding" src="">
 
-#### Onderiteling
+#### Ondertiteling
 
 Voor de ondertiteling ben ik eerst gaan experimenteren met de plaatsing van de tekst. Wil ik de ondertiteling buiten video plaatsen of in de video? Na wat onderzoek gedaan te hebben naar de ondertiteling van bijvoorbeeld YouTube video's en Netflix series/films, heb ik toch besloten om de ondertiteling te centreren en in de video te plaatsen net zoals de meeste video's/films/series.
 

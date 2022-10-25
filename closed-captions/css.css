@@ -5,6 +5,31 @@ Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
+body {
+	display: grid;
+	height: 100vh;
+	margin: 0;
+	justify-content: center;
+	color: white;
+}
+#video-container {
+	margin: auto;
+	position: relative;
+}
+#video-mask {
+	aspect-ratio: 240.5/100;
+	display: grid;
+	overflow: hidden;
+	align-content: center;
+	transition: 1s;
+}
+
+iframe {
+	width: 80vw;
+	height: 53.33333333vw;
+	margin-top: -0.35vw;
+}
+
 #closed-captions{
 	text-align:center;
 	position: relative;
@@ -153,8 +178,74 @@ Sounds.
 	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
 }
 
+.sound2 #video-container{
+	transform: scale(1);
+}
 .sound2 #video-mask {
 	box-shadow: 0 4px 8px 0 #BF620A, 0 6px 20px 0 #BF620A;
+	transition: all 2s ease-in-out;
+
+	animation-name: tilt-shaking;
+	animation-duration: .8s;
+}
+@keyframes tilt-shaking {
+	0% { transform: rotate(0deg); }
+	25% { transform: rotate(5deg); }
+	50% { transform: rotate(0eg); }
+	75% { transform: rotate(-5deg); }
+	100% { transform: rotate(0deg); }
+}
+
+.sound3 #video-mask {
+	transition: all 2s ease-in-out;
+	animation-name: zoom-in-zoom-outtt;
+	animation-duration: .8s;
+}
+@keyframes zoom-in-zoom-outtt {
+	0% {
+	  transform: scale(1, 1);
+	}
+	50% {
+	  transform: scale(1.5, 1.5);
+	}
+	100% {
+	  transform: scale(1, 1);
+	}
+}
+
+
+.sound4 #video-mask {
+	transition: all 2s ease-in-out;
+	animation-name: zoom-in-zoom-out;
+	animation-duration: .8s;
+}
+@keyframes zoom-in-zoom-out {
+	0% {
+	  transform: scale(1.8, 1.8);
+	}
+	50% {
+	  transform: scale(2, 2);
+	}
+	100% {
+	  transform: scale(1.8, 1.8);
+	}
+}
+
+.sound6 #video-mask {
+	transition: all 2s ease-in-out;
+	animation-name: zoom-in-zoom-outt;
+	animation-duration: .8s;
+}
+@keyframes zoom-in-zoom-outt {
+	0% {
+	  transform: scale(1, 1);
+	}
+	50% {
+	  transform: scale(1.5, 1.5);
+	}
+	100% {
+	  transform: scale(1, 1);
+	}
 }
 
 
@@ -163,17 +254,22 @@ Sounds.
 
 	.sound9 #video-mask {
 		box-shadow: 0 4px 8px 0 transparent, 0 6px 20px 0 transparent;
+		animation-name: trillen;
+		animation-duration: 45s;
 	}
+	
 
 	.sound9 {
-		animation-name: backgroundColorPalette;
+		animation-name: pieptoon;
 		animation-duration: 45s;
-		/* animation-iteration-count: infinite; */
-
+		/* animation-iteration-count: infinite;  */
 	}
 
-	@keyframes backgroundColorPalette {
+	@keyframes pieptoon {
 		0% {
+			background: black;
+		}
+		1% {
 			background: white;
 		}
 		2%{
@@ -282,181 +378,316 @@ Sounds.
 			background-image: linear-gradient(to right, #441D4B , #C599BC);
 		}
 		36% {
-			background: white;
+			background: black;
 		}
 		37% {
-			background: black;
+			background: white;
 		}
 		38% {
-			background: white;
+			background: black;
 		}
 		39% {
-			background: black;
+			background: white;
 		}
 		40% {
-			background: white;
+			background: black;
 		}
 		41% {
-			background: black;
+			background: white;
 		}
 		42% {
-			background: white;
+			background: black;
 		}
 		43% {
-			background: black;
+			background: white;
 		}
 		44% {
-			background: white;
+			background: black;
 		}
 		45% {
-			background: black;
-		}
-		46% {
-			background: rgb(6, 5, 5);
-		}
-		47% {
-			background: black;
-		}
-		48% {
 			background: white;
 		}
-		49% {
+		46% {
 			background: black;
+		}
+		47% {
+			background: white;
+		}
+		48% {
+			background: black;
+		}
+		49% {
+			background-image: linear-gradient(to right, #441D4B , #C599BC);
 		}
 		50% {
 			background: white;
 		}
+		50.5% {
+			background: black;
+		}
 		51% {
+			background: white;
+		}
+		51.5% {
 			background: black;
 		}
 		52% {
 			background: white;
 		}
+		52.5% {
+			background: black;
+		}
 		53% {
+			background: white;
+		}
+		53.5% {
 			background: black;
 		}
 		54% {
 			background: white;
 		}
+		54.5% {
+			background: black;
+		}
 		55% {
+			background: white;
+		}
+		55.5% {
 			background: black;
 		}
 		56% {
 			background: white;
 		}
+		56.5% {
+			background: black;
+		}
 		57% {
+			background: white;
+		}
+		57.5% {
 			background: black;
 		}
 		58% {
 			background: white;
 		}
+		58.5% {
+			background: black;
+		}
 		59% {
+			background: white;
+		}
+		59.5% {
 			background: black;
 		}
 		60% {
 			background: white;
 		}
+		60.5% {
+			background: black;
+		}
 		61% {
+			background: white;
+		}
+		61.5% {
 			background: black;
 		}
 		62% {
 			background: white;
 		}
+		62.5% {
+			background: black;
+		}
 		63% {
+			background: white;
+		}
+		63.5% {
 			background: black;
 		}
 		64% {
 			background: white;
 		}
+		64.5% {
+			background: black;
+		}
 		65% {
+			background: white;
+		}
+		65.5% {
 			background: black;
 		}
 		66% {
 			background: white;
 		}
+		66.5% {
+			background: black;
+		}
 		67% {
+			background: white;
+		}
+		67.5% {
 			background: black;
 		}
 		68% {
 			background: white;
 		}
+		68.5% {
+			background: black;
+		}
 		69% {
+			background: white;
+		}
+		70.5% {
 			background: black;
 		}
 		70% {
 			background: white;
 		}
+		72.5% {
+			background: black;
+		}
 		71% {
+			background: white;
+		}
+		71.5% {
 			background: black;
 		}
 		72% {
 			background: white;
 		}
+		72.5% {
+			background: black;
+		}
 		73% {
+			background: white;
+		}
+		73.5% {
 			background: black;
 		}
 		74% {
 			background: white;
 		}
+		74.5% {
+			background: black;
+		}
 		75% {
+			background: white;
+		}
+		75.5% {
 			background: black;
 		}
 		76% {
 			background: white;
 		}
+		76.5% {
+			background: black;
+		}
 		77% {
+			background: white;
+		}
+		77.5% {
 			background: black;
 		}
 		78% {
 			background: white;
 		}
+		78.5% {
+			background: black;
+		}
 		79% {
+			background: white;
+		}
+		79.5% {
 			background: black;
 		}
 		80% {
 			background: white;
 		}
+		80.5% {
+			background: black;
+		}
 		81% {
+			background: white;
+		}
+		81.5% {
 			background: black;
 		}
 		82% {
 			background: white;
 		}
+		82.5% {
+			background: black;
+		}
 		83% {
+			background: white;
+		}
+		83.5% {
 			background: black;
 		}
 		84% {
 			background: white;
 		}
+		84.5% {
+			background: black;
+		}
 		85% {
+			background: white;
+		}
+		85.5% {
 			background: black;
 		}
 		86% {
 			background: white;
 		}
+		86.5% {
+			background: black;
+		}
 		87% {
+			background: white;
+		}
+		87.5% {
 			background: black;
 		}
 		88% {
 			background: white;
 		}
+		88.5% {
+			background: black;
+		}
 		89% {
+			background: white;
+		}
+		89.5% {
 			background: black;
 		}
 		90% {
 			background: white;
 		}
+		90.5% {
+			background: black;
+		}
 		91% {
+			background: white;
+		}
+		91.5% {
 			background: black;
 		}
 		92% {
 			background: white;
 		}
-		93% {
+		92.5% {
 			background: black;
+		}
+		93% {
+			background: white;
 		} 
+		93.5% {
+			background: black;
+		}
 		94% {
 			background: white;
+		}
+		94.5% {
+			background: black;
 		}
 		95% {
 			background: black;
@@ -465,420 +696,84 @@ Sounds.
 			background: white;
 		}
 	}
-		/* 11% {
-			background: white;
-		}
-		12% {
-			background: black;
-		}
-		13% {
-			background: white;
-		}
-		14% {
-			background: black;
-		}
-		15% {
-			background: white;
-		}
-		16% {
-			background: black;
-		}
-		17% {
-			background: white;
-		}
-		18% {
-			background: black;
-		}
-		19% {
-			background: white;
-		}
-		20% {
-			background: black;
-		}
-		21% {
-			background: white;
-		}
-		22% {
-			background: black;
-		}
-		23% {
-			background: white;
-		}
-		24% {
-			background: black;
-		}
-		25% {
-			background: white;
-		}
-		26% {
-			background: black;
-		}
-		27% {
-			background: white;
-		}
-		28% {
-			background: black;
-		}
-		29% {
-			background: white;
-		}
-		30% {
-			background: black;
-		}
-		31% {
-			background: white;
-		}
-		32% {
-			background: black;
-		}
-		33% {
-			background: white;
-		}
-		34% {
-			background: black;
-		}
-		35% {
-			background: white;
-		}
-		36% {
-			background: black;
-		}
-		37% {
-			background: white;
-		}
-		38% {
-			background: black;
-		} */
-		/* 39% {
-			background: white;
-		}
-		40% {
-			background: black;
-		}
-		41% {
-			background: white;
-		}
-		42% {
-			background: black;
-		} */
-	
-/* } */
-/* .sound9{
-	background-color: white;
-}
-.sound10{
-	background-color: black
-}
-.sound11{
-	background-color: white;
-}
-.sound12{
-	background-color: black
-}
-.sound13{
-	background-color: white;
-}
-.sound14{
-	background-color: black
-}
-.sound15{
-	background-color: white;
-}
-.sound16{
-	background-color: black
-}
-.sound17{
-	background-color: white;
-}
-.sound18{
-	background-color: black
-}
-.sound19{
-	background-color: white;
-}
-.sound20{
-	background-color: black
-}
-.sound21{
-	background-color: white;
-}
-.sound22{
-	background-color: black
-}
-.sound23{
-	background-color: white;
-}
-.sound24{
-	background-color: black
-}
-.sound25{
-	background-color: white;
-}
-.sound26{
-	background-color: black
-}
-.sound27{
-	background-color: white;
-}
-.sound28{
-	background-color: black
-}
-.sound29 {
-	background-color: white;
-}
-.sound30{
-	background-color: black
-}
-.sound31{
-	background-color: white;
-}
-.sound32{
-	background-color: black
-}
-.sound33{
-	background-color: white;
-}
-.sound34{
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound35{
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound36{
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound37{
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound38{
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound39{
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
 
+	/* .sound10{
 
-.sound40 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+	} */
+	/* .sound17 {
+		transition: all 2s ease-in-out;
+		animation-name: zoom-in-and-out-video;
+		animation-duration: 45s;
 }
-.sound41 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+@keyframes zoom-in-and-out-video {
+	0% {
+	  transform: scale(1.1, 1.1);
+	}
+	5% {
+	  transform: scale(1.12, 1.12);
+	}
+	10% {
+	  transform: scale(1.13, 1.13);
+	}
+	15% {
+		transform: scale(1.14, 1.14);
+	  }
+	20% {
+		transform: scale(1.15, 1.15);
+	}
+	25% {
+		transform: scale(1.16, 1.16);
+	}
+	30% {
+		  transform: scale(1.17, 1.17);
+		}
+	35% {
+		  transform: scale(1.18, 1.18);
+	  }
+	40% {
+		transform: scale(1.19, 1.19);
+	}
+	45% {
+		transform: scale(1.195, 1.195);
+	}
+	50% {
+		  transform: scale(1.2, 1.2);
+	}
+	55% {
+		transform: scale(1.195, 1.195);
+	  }
+	60% {
+		transform: scale(1.19, 1.19);
+	  }
+	65% {
+		transform: scale(1.18, 1.18);
+	  }
+	70% {
+		  transform: scale(1.17, 1.17);
+		}
+	75% {
+		  transform: scale(1.16, 1.16);
+	  }
+	80% {
+		  transform: scale(1.15, 1.15);
+	  }
+	85% {
+			transform: scale(1.14, 1.14);
+		  }
+	90% {
+			transform: scale(1.13, 1.13);
+		}
+	95% {
+		  transform: scale(1.12, 1.12);
+	  }
+	100% {
+		  transform: scale(1.1, 1.1);
+	  }
 }
-.sound42 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound43 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound44 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound45 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound46 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound47 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound48 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound49 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound50 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound51 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound52 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound53 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound54 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound55 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound56 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound57 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound58 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound59 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound60 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound61 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound62 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound63 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound64 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound65 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound66 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound67 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound68 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound69 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound70 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound71 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-} 
-.sound72 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound73 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound74 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound75 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound76 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound77 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound78 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound79 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound80 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-} */
-/* .sound81 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound82 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound83 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound84 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound85 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound87 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound88 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound89 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound90 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound91 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound92 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound93 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound94 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound95 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound96 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound97 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound98 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound99 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound100 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound101 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound102 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}
-.sound103 #video-mask {
-	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-.sound104 #video-mask {
-	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
-}  */ 
-
-
+ */
 
 /* **********************************************
 Basic layout.
 	Place the video in the center of the page.
 *********************************************  */
 
-body {
-	display: grid;
-	height: 100vh;
-	margin: 0;
-	justify-content: center;
-	color: white;
-}
-#video-container {
-	margin: auto;
-	position: relative;
-}
-#video-mask {
-	aspect-ratio: 240.5/100;
-	display: grid;
-	overflow: hidden;
-	align-content: center;
-	transition: 1s;
-}
-
-iframe {
-	width: 80vw;
-	height: 53.33333333vw;
-	margin-top: -0.35vw;
-}
