@@ -26,14 +26,22 @@ Het font wat ik ga gebruiken voor de ondertiteling is 'Brenner Sans'. Brenner Sa
 
 Voor de ondertiteling ben ik eerst gaan experimenteren met de plaatsing van de tekst. Wil ik de ondertiteling buiten video plaatsen of in de video? Na wat onderzoek gedaan te hebben naar de ondertiteling van bijvoorbeeld YouTube video's en Netflix series/films, heb ik toch besloten om de ondertiteling te centreren en in de video te plaatsen net zoals de meeste video's/films/series.
 
+Ignore conventions
+
+Achteraf heb ik verder niet zoveel aan de de font-weight gedaan van de ondertiteling. Verschillende gewichten in de ondertiteling maken het voor de kijker juist moeilijker om de tekst te lezen en voegt dus geen toegevoegde waarde toe.
+
 <img width="100" alt="Netflix, Youtube video ondertiteling" src="">
 
 <ul>
 <li>Hoe kan ik de ondertiteling het beste vormgeven?</li> 
 
+Study situation
+
 Het eerste wat mij gelijk opviel was dat de achtergrond van de ondertiteling verschilde van licht naar donker. Wat zou betekenen dat een wit ondertiteling slecht zichtbaar zou zijn op een licht achtergrond en andersom op een donker achtergrond. Dit probleem heb ik opgelost door een een zwarte transparante vlak als achtegrond neer te zetten
 
 <li>Hoe maak ik duidelijk in de ondertiteling dat er vanuit twee perspectieven wordt gesproken?</li>
+
+Add nonesense
 
 Dit probleem heb ik proberen te verhelpen door gebruik te maken van emoji's. In de video wordt er vanuit een speaker gesproken en vanuit de hoofdpersoon zelf. Wanneer er vanuit de speaker werd gesroken, heb ik voor elke zin een speaker emoji neergezet en wanneer er vanuit de hoofpdersoon werd gesproken heb ik een mannetje neergezet.
 </ul>
@@ -70,16 +78,13 @@ Bron: <a href="">https://www.premiumbeat.com/blog/symmetry-color-cinematography-
 
 
 
-
-
-
-
-
-
-
 ### Proces/onderzoek Week 2
 
 #### Kleur
+
+Prioritise Identity
+
+Door kleur te gebruiken kan de kijker een bepaald gevoel geven van hoe een persoon in de film zich voelt of wat voor sfeer er hangt, zonder geluid er bij te hoeven te houden.
 
 Gedurende het piepgeluid heb ik de achtergrondkleur aangepast naar zwart en wit. Bij de zin 'What's it like to hold the hand of someone you love', heb ik de achtegrondkleur aangepast naar een gradient van paars tot roze. Paars tot roze stond namelijk voor romantische interesses. Daarnaast heb ik de box-shadow bij sound 1 aan het begin van de video, aangepast van wit naar oranje. De scene wat tijdens die box-sahdow afspeelde, bleef nog een beetje mysterieus, oranje paste daarom wel goed bij de scene.
 
@@ -98,20 +103,24 @@ Gedurende het piepgeluid heb ik de achtergrondkleur aangepast naar zwart en wit.
 #### Aanpassingen op basis van feedback
 
 <ul>
+<li>Sound 0 (0 seconden)</li>
+Hier zweeft er een voertuig door de lucht. Ik heb hier dan ook op de achtergrond een lineair-gradient animation toegevoegt van zwart en een lichtgrijze achtegrond, waardoor de kijker ook een soort van zweverig lucht gevoel krijgt.
 <li>Sound 1 (9 seconden)</li>
+Bij sound 1 hoor je een geluid alsof er op een knop wordt gedrukt. Hier heb ik dan ook een box-shadow van wit toegvoegd, zodat het lijkt alsof er iets wordt geactiveerd. Wit staat voor het uitzoeken van zijn identiteit, daarom heb ik de kleur wit gekozen, omdat je dan nog niet weet wat er gaat gebeuren en er opzoek naar bent.
 <li>Sound 2 (12 seconden)</li>
+Je hoort hier op de achtergrond een soort alarmgeluid. Deze is wat minder heftig dan die van sound 3. Bij sound 2 shaket de video masker een beetje alsof er een alarm ringt..
 <li>Sound 3 (15 seconden)</li>
+Je hoort hier op de achtergrond een soort alarmgeluid. Deze is minder extreem dan die van sound 4. Daarom heb ik gekozen om de video in te laten zoomen, maar nog eerst wat rustiger.
 <li>Sound 4 (16.5 seconden)</li>
+Je hoort hier op de achtergrond ook een soort alarmgeluid. Deze is heftiger dan die van sound 3. Bij sound 3 zoomt de video dan ook gelijk heftiger in. De kijker krijgt hierdoor het gevoel alsof er iets belangrijks is omdat er ineens iets in het gezicht wordt geduwd.
 <li>Sound 5 (23.5 seconden)</li>
+Sound 5 is een man die 'FUCK OFF' naar de hoofdpersoon roept. Deze woorden heb ik dan ook in capslock gezet en tijdens het roepen van 'FUCK OFF" lijkt het alsof die man een beetje boos/geirriteerd is waardoor ik de box-shadow tijdelijk aangepast hebt naar rood. Rood vertegenwoordigt boosheid. En ook hier trilt het video masker om het razende/geirriteerde gevoel naar voren te brengen.
 <li>Sound 6 (25.8 seconden)</li>
+Je hoort hier op de achtergrond een soort alarmgeluid. Deze is minder extreem. Daarom heb ik gekozen om de video in te laten zoomen, maar nog eerst wat rustiger.
 <li>Sound 7 (27 seconden)</li>
+Hier op de achtegrond hoor je een soort glitch geluid achtig iets. Ik heb geprobeerd dit gevoel naar voren te brengen door het beeld heel licht en naar te laten bewegen.
 <li>Sound 8 (31.1 seconden)</li>
-<li>Sound 9 (31.3 seconden)</li>
+Je hoort hier op de achtergrond ook een soort alarmgeluid. Deze is heftiger dan die van sound 6. Bij sound 8 zoomt de video dan ook gelijk heftiger in. De kijker krijgt hierdoor het gevoel alsof er iets belangrijks is omdat er ineens iets in het gezicht wordt geduwd.
 <li>Sound 10 (31.5 seconden)</li>
-<li>Sound 10 (77 seconden)</li>
+Hier begint een nare piepgeluid. Deze piepgeluid heb ik proberen terug laten komen door een een soort knipperend effect te laten zien van zwart en wit, wat eerst langzaam knippert en naarmate de video wat langer duurt steeds vaker gaat knipperen. De pieptoon wordt dan ook steeds irritanter en scherper.
 </ul>
-
-Study Situation
-Ignore Conventions
-Prioritise Identity
-Add Nonsense
