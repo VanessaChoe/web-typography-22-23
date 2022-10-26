@@ -1,4 +1,5 @@
 # Webtypografie
+Vanessa Choe (500844416)
 
 ## Blade Runner 2049
 Blade Runner 2029 is een science fiction film dat over een LAPD-functionaris gaat die een samenzwering ontdekt van de android-werknemers die als personeel van de mensheid dienen. Zijn doel is om een voormalige agent te vinden die hem moet helpen in deze oorlog.
@@ -14,17 +15,20 @@ Ik ben als eerst begonnen met het onderzoeken naar de structuur van het css best
 
 Het font wat ik ga gebruiken voor de ondertiteling is 'Brenner Sans'. Brenner Sans heeft veel mogelijkheden in gewichten, waardoor je veel keuze hebt om ermee te experimenteren. Daarnaast is een Sans-Serif font beter leesbaar voor tijdens het film kijken, omdat het geen streepjes aan de uiteindes van de letters heeft. 
 
-<img width="100" alt="Brenner Sans afbeelding" src="./images/brenner_sans">
+<img width="400" alt="brenner_sans" src="https://user-images.githubusercontent.com/90140769/198054651-1bc17c72-709d-47ef-b134-b87e754acc87.png">
 
 #### Ondertiteling
 
 Voor de ondertiteling ben ik eerst gaan experimenteren met de plaatsing van de tekst. Wil ik de ondertiteling buiten video plaatsen of in de video? Na wat onderzoek gedaan te hebben naar de ondertiteling van bijvoorbeeld YouTube video's en Netflix series/films, heb ik toch besloten om de ondertiteling te centreren en in de video te plaatsen net zoals de meeste video's/films/series.
 
+<img width="400" alt="Schermafbeelding 2022-10-26 om 16 33 54" src="https://user-images.githubusercontent.com/90140769/198055964-3c4ba45d-a323-472f-88b4-f9f1aa8283fd.png">
+<img width="400" alt="Schermafbeelding 2022-10-26 om 16 35 51" src="https://user-images.githubusercontent.com/90140769/198056080-96993d71-0ef9-42d7-98cb-13fc91184eef.png">
+
+
 Ignore conventions
 
 Achteraf heb ik verder niet zoveel aan de de font-weight gedaan van de ondertiteling. Verschillende gewichten in de ondertiteling maken het voor de kijker juist moeilijker om de tekst te lezen en voegt dus geen toegevoegde waarde toe. Wat ik uiteindelijk heb gebruikt zijn deze regels voor css: font-style: Normal; font-family: "Brenner Sans"; font-weight:400; 
 
-<img width="100" alt="Netflix, Youtube video ondertiteling" src="">
 
 <ul>
 <li>Hoe kan ik de ondertiteling het beste vormgeven?</li> 
@@ -33,11 +37,17 @@ Study situation
 
 Het eerste wat mij gelijk opviel was dat de achtergrond van de ondertiteling verschilde van licht naar donker. Wat zou betekenen dat een wit ondertiteling slecht zichtbaar zou zijn op een licht achtergrond en andersom op een donker achtergrond. Dit probleem heb ik opgelost door een een zwarte transparante vlak als achtegrond neer te zetten
 
+<img width="400" alt="Schermafbeelding 2022-10-26 om 16 41 18" src="https://user-images.githubusercontent.com/90140769/198056934-0e2c523e-eedd-4c68-832f-9ead0febc1cd.png">
+
 <li>Hoe maak ik duidelijk in de ondertiteling dat er vanuit twee perspectieven wordt gesproken?</li>
 
 Add nonesense
 
 Dit probleem heb ik proberen te verhelpen door gebruik te maken van emoji's. In de video wordt er vanuit een speaker gesproken en vanuit de hoofdpersoon zelf. Wanneer er vanuit de speaker werd gesroken, heb ik voor elke zin een speaker emoji neergezet en wanneer er vanuit de hoofpdersoon werd gesproken heb ik een mannetje neergezet.
+
+<img width="400" alt="Schermafbeelding 2022-10-26 om 16 39 41" src="https://user-images.githubusercontent.com/90140769/198056757-2f20585d-1af0-44b6-b5c2-dd22c400deea.png">
+<img width="430" alt="Schermafbeelding 2022-10-26 om 16 39 51" src="https://user-images.githubusercontent.com/90140769/198056771-c8350ce0-fcf1-438c-90dd-4c516bbacce9.png">
+
 </ul>
 
 
@@ -45,20 +55,12 @@ Dit probleem heb ik proberen te verhelpen door gebruik te maken van emoji's. In 
 
 <ul>
     <li>Geel: het aangeven voor een plotpunt of nieuwe wending. </li>
-    <li><img width="100" alt="Geel" src=""></li>
     <li>Oranje: creeërt een gevoel van waarschuwing en voorzichtigheid. Oranje wordt vaak geassocieerd met transformatie.</li>
-    <li><img width="100" alt="Oranje" src=""></li>
     <li>Groen: groen staat voor leven en levedigheid, wordt in de film ook vaak gebruikt wanneer Joi, K's robotachtige metgezel op het scherm te zien is.</li>
-    <li><img width="100" alt="Groen" src=""></li>
     <li>Paars & roze: worden gebruikt voor romatische interesses. worden vaak geassocieerd met extravagantie, dubbelzinnigheid, onschuld, romantiek en algeheel onschadelijkheid.</li>
-    <li><img width="100" alt="Paars & roze" src=""></li>
     <li>Wit: vertegenwoordigt waarheid en informatie, verschijnt in elke scêne wanneer K in de buurt komt van het uitzoeken naar zijn identiteit.</li>
-    <li><img width="100" alt="Wit" src=""></li>
 </ul>
 
-Bron: <a href="">https://viaplay.com/nl-nl/movies/blade-runner-2049-2017?&msclkid=f4f3962c19d71fa07f64f579805e292a&utm_source=bing&utm_medium=cpc&utm_campaign=nl_web_gs_ua_all_x_x_search-dsa-movies~VPL000_VPL000_ref1_204045826&utm_term=nl%2Fmovies&utm_content=nl_web_gs_key_all_x_xx_dsa-movies&gclid=COeYyL-O9_oCFRKAhQodk3IN6w&gclsrc=ds"</a>!
-
-Bron: <a href="">https://www.premiumbeat.com/blog/symmetry-color-cinematography-blade-runner/</a>!
 
 #### Voortgangsgesprek week 1
 
@@ -70,8 +72,6 @@ Bron: <a href="">https://www.premiumbeat.com/blog/symmetry-color-cinematography-
 <li>Herinnering: readme maken</li>
 </ul>
 
-
-
 ### Proces/onderzoek Week 2
 
 #### Kleur
@@ -82,14 +82,10 @@ Door kleur te gebruiken kan de kijker een bepaald gevoel geven van hoe een perso
 
 Gedurende het piepgeluid heb ik de achtergrondkleur aangepast naar zwart en wit. Bij de zin 'What's it like to hold the hand of someone you love', heb ik de achtegrondkleur aangepast naar een gradient van paars tot roze. Paars tot roze stond namelijk voor romantische interesses. Daarnaast heb ik de box-shadow bij sound 1 aan het begin van de video, aangepast van wit naar oranje. De scene wat tijdens die box-sahdow afspeelde, bleef nog een beetje mysterieus, oranje paste daarom wel goed bij de scene.
 
-<img width="100" alt="Achtergrondkleur paars-roze gradient" src="">
-<img width="100" alt="Box-shadow oranje" src="">
-
-
 #### Voortgangsgesprek week 2
 
 <ul>
-<li>De grijstint bij de pieptoon mag een verloopje hebben van zwart naar wit of van wit naar zwart, zodat het lijkt alsof de pieptoon steeds irritanter wordt.</li>
+<li>De grijstint bij de pieptoon mag een verloopje hebben van zwart naar wit of van wit naar zwart, zodat het lijkt alsof de pieptoon steeds irritanter wordt. -> ik heb uiteindelijk de snelheid en ritme van de pieptoon aangepast en niet de kleur</li>
 <li>Het mag nog iets irritanter.</li>
 <li>Box-shadows mogen meer.</li>
 </ul>
@@ -129,9 +125,11 @@ Helaas heb ik wel fragment 2 moeten laten vallen, omdat ik me goed wilde focusse
 
 <ul>
 <li>https://exclusive-design.vasilis.nl/principles/ignore-conventions/</li>
-<li>https://www.w3schools.com/howto/howto_css_shake_image.asp */</li>
+<li>https://www.w3schools.com/howto/howto_css_shake_image.asp</li>
 <li>https://unused-css.com/blog/css-shake-animation/</li>
 <li>https://codepen.io/P1N2O/pen/pyBNzX</li>
 <li>https://css-tricks.com/almanac/properties/b/box-shadow/</li>
 <li>https://www.premiumbeat.com/blog/symmetry-color-cinematography-blade-runner/</li>
-</ul>
+<li>https://viaplay.com/nl-nl/movies/blade-runner-2049-2017?&msclkid=f4f3962c19d71fa07f64f579805e292a&utm_source=bing&utm_medium=cpc&utm_campaign=nl_web_gs_ua_all_x_x_search-dsa-movies~VPL000_VPL000_ref1_204045826&utm_term=nl%2Fmovies&utm_content=nl_web_gs_key_all_x_xx_dsa-movies&gclid=COeYyL-O9_oCFRKAhQodk3IN6w&gclsrc=ds"</li>!
+<li>https://www.premiumbeat.com/blog/symmetry-color-cinematography-blade-runner/</a>
+</li>
