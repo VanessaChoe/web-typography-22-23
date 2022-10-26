@@ -90,9 +90,28 @@ Gedurende het piepgeluid heb ik de achtergrondkleur aangepast naar zwart en wit.
 #### Voortgangsgesprek week 2
 
 <ul>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>De grijstint bij de pieptoon mag een verloopje hebben van zwart naar wit of van wit naar zwart, zodat het lijkt alsof de pieptoon steeds irritanter wordt.</li>
+<li>Het mag nog iets irritanter.</li>
+<li>Box-shadows mogen meer.</li>
 </ul>
+
+#### Aanpassingen op basis van feedback
+
+<ul>
+<li>Sound 1 (9 seconden)</li>
+<li>Sound 2 (12 seconden)</li>
+<li>Sound 3 (15 seconden)</li>
+<li>Sound 4 (16.5 seconden)</li>
+<li>Sound 5 (23.5 seconden)</li>
+<li>Sound 6 (25.8 seconden)</li>
+<li>Sound 7 (27 seconden)</li>
+<li>Sound 8 (31.1 seconden)</li>
+<li>Sound 9 (31.3 seconden)</li>
+<li>Sound 10 (31.5 seconden)</li>
+<li>Sound 10 (77 seconden)</li>
+</ul>
+
+Study Situation
+Ignore Conventions
+Prioritise Identity
+Add Nonsense
