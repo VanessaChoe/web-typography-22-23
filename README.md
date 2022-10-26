@@ -14,7 +14,7 @@ Ik ben als eerst begonnen met het onderzoeken naar de structuur van het css best
 
 Het font wat ik ga gebruiken voor de ondertiteling is 'Brenner Sans'. Brenner Sans heeft veel mogelijkheden in gewichten, waardoor je veel keuze hebt om ermee te experimenteren. Daarnaast is een Sans-Serif font beter leesbaar voor tijdens het film kijken, omdat het geen streepjes aan de uiteindes van de letters heeft. 
 
-<img width="100" alt="Brenner Sans afbeelding" src="images/brenner_sans">
+<img width="100" alt="Brenner Sans afbeelding" src="./images/brenner_sans">
 
 #### Ondertiteling
 
