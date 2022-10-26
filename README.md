@@ -119,11 +119,17 @@ Je hoort hier op de achtergrond ook een soort alarmgeluid. Deze is heftiger dan 
 Hier begint een nare piepgeluid. Deze piepgeluid heb ik proberen terug laten komen door een een soort knipperend effect te laten zien van zwart en wit, wat eerst langzaam knippert en naarmate de video wat langer duurt steeds vaker gaat knipperen. De pieptoon wordt dan ook steeds irritanter en scherper.
 </ul>
 
+## Reflectie
+
+Ik vind coderen wel leuk, maar ik doe het niet vaak. Daarom vond ik het wel leuk dat je bij dit vak mocht coderen alhoewel ik het vormgeven van geluid via code toch wat minder vind😅. Ondanks dat vond ik het toch wel een leuke opdracht, omdat ik eigenlijk nooit had bedacht dat je zo'n opdracht met css kon waarmaken en daarnaast toch nog wat nieuwe dingen heb kunnen leren van css, zoals de mogelijkheden in het maken van animatie.
+
+Helaas heb ik wel fragment 2 moeten laten vallen, omdat ik me goed wilde focussen op fragment 1 en dat wel prima vond. Ik heb hierdoor ook nog wat meer kunnen verdiepen in css-code.
+
 ## Bronnen
 
 <ul>
 <li>https://exclusive-design.vasilis.nl/principles/ignore-conventions/</li>
-<li>/* https://www.w3schools.com/howto/howto_css_shake_image.asp */</li>
+<li>https://www.w3schools.com/howto/howto_css_shake_image.asp */</li>
 <li>https://unused-css.com/blog/css-shake-animation/</li>
 <li>https://codepen.io/P1N2O/pen/pyBNzX</li>
 <li>https://css-tricks.com/almanac/properties/b/box-shadow/</li>
