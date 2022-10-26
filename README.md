@@ -4,12 +4,6 @@
 Blade Runner 2029 is een science fiction film dat over een LAPD-functionaris gaat die een samenzwering ontdekt van de android-werknemers die als personeel van de mensheid dienen. Zijn doel is om een voormalige agent te vinden die hem moet helpen in deze oorlog.
 
 
-
-
-
-
-
-
 ### Proces/onderzoek Week 1
 
 #### Blader Runner 2049
@@ -20,7 +14,7 @@ Ik ben als eerst begonnen met het onderzoeken naar de structuur van het css best
 
 Het font wat ik ga gebruiken voor de ondertiteling is 'Brenner Sans'. Brenner Sans heeft veel mogelijkheden in gewichten, waardoor je veel keuze hebt om ermee te experimenteren. Daarnaast is een Sans-Serif font beter leesbaar voor tijdens het film kijken, omdat het geen streepjes aan de uiteindes van de letters heeft. 
 
-<img width="100" alt="Brenner Sans afbeelding" src="">
+<img width="100" alt="Brenner Sans afbeelding" src="images/brenner_sans">
 
 #### Ondertiteling
 
@@ -28,7 +22,7 @@ Voor de ondertiteling ben ik eerst gaan experimenteren met de plaatsing van de t
 
 Ignore conventions
 
-Achteraf heb ik verder niet zoveel aan de de font-weight gedaan van de ondertiteling. Verschillende gewichten in de ondertiteling maken het voor de kijker juist moeilijker om de tekst te lezen en voegt dus geen toegevoegde waarde toe.
+Achteraf heb ik verder niet zoveel aan de de font-weight gedaan van de ondertiteling. Verschillende gewichten in de ondertiteling maken het voor de kijker juist moeilijker om de tekst te lezen en voegt dus geen toegevoegde waarde toe. Wat ik uiteindelijk heb gebruikt zijn deze regels voor css: font-style: Normal; font-family: "Brenner Sans"; font-weight:400; 
 
 <img width="100" alt="Netflix, Youtube video ondertiteling" src="">
 
@@ -123,4 +117,15 @@ Hier op de achtegrond hoor je een soort glitch geluid achtig iets. Ik heb geprob
 Je hoort hier op de achtergrond ook een soort alarmgeluid. Deze is heftiger dan die van sound 6. Bij sound 8 zoomt de video dan ook gelijk heftiger in. De kijker krijgt hierdoor het gevoel alsof er iets belangrijks is omdat er ineens iets in het gezicht wordt geduwd.
 <li>Sound 10 (31.5 seconden)</li>
 Hier begint een nare piepgeluid. Deze piepgeluid heb ik proberen terug laten komen door een een soort knipperend effect te laten zien van zwart en wit, wat eerst langzaam knippert en naarmate de video wat langer duurt steeds vaker gaat knipperen. De pieptoon wordt dan ook steeds irritanter en scherper.
+</ul>
+
+## Bronnen
+
+<ul>
+<li>https://exclusive-design.vasilis.nl/principles/ignore-conventions/</li>
+<li>/* https://www.w3schools.com/howto/howto_css_shake_image.asp */</li>
+<li>https://unused-css.com/blog/css-shake-animation/</li>
+<li>https://codepen.io/P1N2O/pen/pyBNzX</li>
+<li>https://css-tricks.com/almanac/properties/b/box-shadow/</li>
+<li>https://www.premiumbeat.com/blog/symmetry-color-cinematography-blade-runner/</li>
 </ul>
